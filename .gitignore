@@ -2,6 +2,7 @@
 DATASET/
 DATASET_NCD_SINTETIS/
 dcgan_outputs/
+BNSP/
 
 # ─── Python ───
 __pycache__/
