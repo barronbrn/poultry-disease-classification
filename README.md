@@ -154,27 +154,3 @@ streamlit run dashboard.py
 Akses dashboard di browser Anda pada alamat: `http://localhost:8501`.
 
 ---
-
-## 🔬 Sitasi & Referensi Dataset
-
-Jika menggunakan dataset dalam penelitian atau pengembangan lebih lanjut, harap sitasi sumber asli dari Zenodo:
-
-```bibtex
-@dataset{poultry_diseases_zenodo_2021,
-  author    = {Zenodo Contributors},
-  title     = {Machine Learning Dataset for Poultry Diseases Diagnostics},
-  year      = {2021},
-  publisher = {Zenodo},
-  doi       = {10.5281/zenodo.4628934},
-  url       = {https://zenodo.org/records/4628934}
-}
-```
-
----
-
-## 👨‍💻 Penulis
-
-**Universitas Komputer Indonesia (UNIKOM)**  
-Program Studi Teknik Informatika  
-Bandung, Jawa Barat, Indonesia  
-*Tahun Kelulusan / Publikasi: 2026*
