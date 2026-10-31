@@ -94,6 +94,9 @@ Citra sintetis NCD beresolusi 128×128 dibangkitkan dari *latent vector* (100-di
 ## 🗂️ Struktur Direktori
 
 ```text
+├── 📂 dashboard_preview/            # Screenshot antarmuka dashboard
+│   ├── dashboard_prediction.png
+│   └── dashboard_initial.png
 ├── 📓 Balancing_DCGAN.ipynb          # Eksperimen & training DCGAN kelas NCD
 ├── 📓 Analysis_DCGAN.ipynb           # Evaluasi kualitas citra sintetis & FID Score
 ├── 📓 MobileNetV3_Baseline.ipynb     # Pelatihan model MobileNetV3 (data asli)
@@ -114,11 +117,21 @@ Citra sintetis NCD beresolusi 128×128 dibangkitkan dari *latent vector* (100-di
 
 ## 🖥️ Interactive Web Dashboard (Streamlit)
 
-Dashboard menyediakan antarmuka modern yang ramah pengguna untuk peternak dan praktisi:
+Dashboard menyediakan antarmuka modern yang ramah pengguna untuk peternak dan praktisi dengan fitur utama:
 - **Tab 1: Single Prediction (Baseline)** — Menguji citra dengan model baseline.
 - **Tab 2: Single Prediction (DCGAN)** — Menguji citra dengan model berbobot seimbang.
 - **Tab 3: Perbandingan Model Side-by-Side** — Menampilkan prediksi kedua model secara bersamaan beserta perbandingan distribusi probabilitas kelas (*confidence bar chart*).
 - **Rekomendasi Tindakan Cepat** — Memberikan panduan sanitasi, isolasi, atau pengobatan sesuai penyakit yang terdeteksi.
+
+### 📸 Tampilan Antarmuka Dashboard
+![Hasil Analisis Dashboard Streamlit](dashboard_preview/dashboard_prediction.png)
+
+<details>
+<summary>🔍 Klik untuk melihat tampilan awal dashboard (Upload View)</summary>
+
+![Tampilan Awal Dashboard Streamlit](dashboard_preview/dashboard_initial.png)
+
+</details>
 
 ---
 
@@ -126,8 +139,8 @@ Dashboard menyediakan antarmuka modern yang ramah pengguna untuk peternak dan pr
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/USERNAME_ANDA/klasifikasi-penyakit-ayam-mobilenetv3-dcgan.git
-cd klasifikasi-penyakit-ayam-mobilenetv3-dcgan
+git clone https://github.com/barronbrn/poultry-disease-classification.git
+cd poultry-disease-classification
 ```
 
 ### 2. Buat Lingkungan Virtual (Opsional namun Disarankan)
